@@ -1,0 +1,17 @@
+.aboutUS{
+   margin-top: 50px;
+}
+.aboutUS img{
+    height: 450px;
+    width: 80%;
+}
+.aboutUS h1{
+    color:blue;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+.aboutUS p{
+    color:tomato;
+    line-height: 30px;
+   
+}

@@ -1,0 +1,40 @@
+[
+    {
+      "id": 1,
+      "title": "Cardiology",
+      "image":"https://images.unsplash.com/photo-1618939304347-e91b1f33d2ab?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80",
+      "Details":"We Provide best Cardiology service.Our Cardiology service is best this twon.People are happpy with our service.We provide best Doctors.Our all doctors are so kindfull.They helped patient with their best"
+    },
+    {
+      "id": 2,
+      "title": "Pulmonary",
+      "image":"https://images.unsplash.com/photo-1631653355789-3e32dcce22db?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=764&q=80",
+      "Details":"We Provide best Pulmonary service.Our Pulmonary service is best this twon.People are happpy with our service.We provide best Doctors.Our all doctors are so kindfull.They helped patient with their best"
+    },
+    {
+      "id": 3,
+      "title": "Eye Care",
+      "image":"https://images.unsplash.com/photo-1501621667575-af81f1f0bacc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      "Details":"We Provide best Eye Care service.Our Eye Care service is best this twon.People are happpy with our service.We provide best Doctors.Our all doctors are so kindfull.They helped patient with their best"
+    },
+    {
+      "id": 4,
+      "title": "Pediatrician Clinic",
+      "image":"https://images.unsplash.com/photo-1597807197258-3272e1808b0b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80",
+      "Details":"We Provide best Pediatrician Clinic service.Our Pediatrician Clinic service is best this twon.People are happpy with our service.We provide best Doctors.Our all doctors are so kindfull.They helped patient with their best"
+    },
+    {
+      "id": 5,
+      "title": "Dental",
+      "image":"https://images.unsplash.com/photo-1607613009820-a29f7bb81c04?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80",
+      "Details":"We Provide best Dental service.Our Dental service is best this twon.People are happpy with our service.We provide best Doctors.Our all doctors are so kindfull.They helped patient with their best"
+    },
+    {
+      "id": 6,
+      "title": "Neurologist",
+      "image":"https://images.unsplash.com/photo-1505751172876-fa1923c5c528?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80",
+      "Details":"We Provide best Neurologist service.Our Neurologist service is best this twon.People are happpy with our service.We provide best Doctors.Our all doctors are so kindfull.They helped patient with their best"
+    }
+   
+    
+  ]

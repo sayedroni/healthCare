@@ -1,0 +1,26 @@
+.loginwithgoogle button{
+    background-color: blue;
+    border: 1px solid blue;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    
+}
+.login{
+    margin-left: 75px;
+   
+}
+.login button{
+    padding:10px 60px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    background-color: blue;
+    border: 1px solid blue;
+    
+}
+.loginwithgoogle{
+    margin-left: 70px;
+    margin-top: 10px;
+}

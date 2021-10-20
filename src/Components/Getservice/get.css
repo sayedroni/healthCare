@@ -1,0 +1,9 @@
+.get{
+    width: 500px;
+   margin: 0 auto;
+}
+.getheading h1{
+    text-align: center;
+    color: violet;
+    margin-top: 30px;
+}

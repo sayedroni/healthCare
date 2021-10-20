@@ -1,0 +1,11 @@
+.service h1{
+    margin-left: 400px;
+    color: violet;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.mycard{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 40px;
+}

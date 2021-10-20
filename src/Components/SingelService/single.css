@@ -1,0 +1,11 @@
+.Mycard img{
+    width: 100%;
+    height: 200px;
+}
+.card-title{
+    color: violet;
+    text-transform: uppercase;
+}
+.card-text{
+    color: tomato;
+}
