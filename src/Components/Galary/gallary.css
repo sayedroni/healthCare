@@ -1,0 +1,29 @@
+.gallary img{
+    width:200px;
+    height: 200px;
+    border-radius: 5px;
+}
+.gallary h1{
+    text-align: center;
+    margin-top: 40px;
+    text-transform: uppercase;
+    color: blue;
+}
+.doctors {
+    margin-top: 30px;
+   
+}
+.doctors h2 {
+    margin-top: 10px;
+    font-size: 15px;
+    margin-left: 60px;
+    color: blue;
+    font-weight: bold;
+}
+.doctors p {
+    margin-top: 10px;
+    font-size: 15px;
+    margin-left: 40px;
+    color: tomato;
+    font-weight: bold;
+}

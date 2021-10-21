@@ -8,7 +8,7 @@ import useAuth from '../../Hooks/useAuth';
 
 
 const Login = () =>{
-    const {signInWithGoogle} = useAuth()
+    const {signInWithGoogle,signInwithEmail} = useAuth()
     return (
         <div>
          
@@ -26,7 +26,7 @@ const Login = () =>{
                 <Form.Control onBlur="" type="password" placeholder="Password" required />
             </Form.Group>
             <div className="login">
-            <Button onClick= "" variant="primary" type="submit">
+            <Button onClick= {signInwithEmail} variant="primary" type="submit">
                 Log In
             </Button>
             </div>

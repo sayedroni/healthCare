@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container,  Nav, Navbar } from 'react-bootstrap';
-import { BrowserRouter,Switch,Route, NavLink } from 'react-router-dom';
+import { BrowserRouter,Switch,Route, NavLink, Link } from 'react-router-dom';
 import Authprovider from '../../Contex/Authprovider';
 import useFirebase from '../../Hooks/useFirebase';
 import About from '../About/About';
@@ -12,6 +12,7 @@ import Privateroute from '../PrivateRoute/Privateroute';
 import Services from '../Service/Services';
 import Reg from '../Registration/Reg';
 import './header.css'
+import Gallary from '../Galary/Gallary';
 const Header = () => {
   const {user,logOut} = useFirebase();
     return (
@@ -21,20 +22,21 @@ const Header = () => {
       <BrowserRouter>
   <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
   <Container>
-  <Navbar.Brand href="#home">MEDICARE HOSPITAL</Navbar.Brand>
+  <Navbar.Brand href="/home">MEDICARE HOSPITAL</Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="me-auto">
-      <NavLink to="/home"activeStyle={{color:"red"}}>Home</NavLink>
-      <NavLink to="/Services"activeStyle={{color:"red"}}>Services</NavLink>
-      <NavLink to="/About"activeStyle={{color:"red"}}>About Us</NavLink>
+      <NavLink as={Link} to="/home"activeStyle={{color:"red"}}>Home</NavLink>
+      <Nav.Link href="/home#Services"activeStyle={{color:"red"}}>Services</Nav.Link>
+      <Nav.Link href="/home#About"activeStyle={{color:"red"}}>About Us</Nav.Link>
+      <Nav.Link href="/home#gallary"activeStyle={{color:"red"}}>Gallary</Nav.Link>
       <NavLink to="/Appoinment"activeStyle={{color:"red"}}>Get Appoinment</NavLink>
     </Nav>
     <Nav>
       <div className="logInlogOut">
     
      { 
-        user.email ?
+        user.displayName ?
         <button onClick={logOut}>Log out</button>
         :
      <NavLink className="logOut" to="/login"activeStyle={{color:"white"}}>Login</NavLink>
@@ -56,6 +58,7 @@ const Header = () => {
       </div>
         <Services></Services>
         <About></About>
+        <Gallary></Gallary>
         <Footer></Footer>
       </Route>
       <Route exact path="/">
@@ -68,13 +71,28 @@ const Header = () => {
       </div>
         <Services></Services>
         <About></About>
+        <Gallary></Gallary>
         <Footer></Footer>
+      </Route>
+      <Route path="/home#Services">
+      <Services></Services>
+      <Footer></Footer>
+      </Route>
+      <Route path="/home#About">
+      <About></About>
+      <Footer></Footer>
+      </Route>
+      <Route path="/home#gallary">
+      <Gallary></Gallary>
+      <Footer></Footer>
       </Route>
       <Route path="/login">
         <Login></Login>
+        <Footer></Footer>
       </Route>
       <Route path="/reg">
         <Reg></Reg>
+        <Footer></Footer>
       </Route>
       <Privateroute path="/private">
         <Getservice></Getservice>
