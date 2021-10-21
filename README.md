@@ -2,6 +2,14 @@
  
  This is a healthcare website.
 
- # Website has
+ # Website Functionality
 
- This is healthcare website.People get appoinment from here
+    **Login System **
+    **Registration System **
+    
+# Website Pages
+    *Home *
+    *Services *
+    *About us *
+    *Gallaey *
+ 
